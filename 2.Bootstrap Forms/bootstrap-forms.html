@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Bootstrap</title>
+
+    
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="Normalize.css">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap -->
+</head>
+<body>
+
+      <div class="container">
+        <div class="page-header">
+          <h1>Bootstrap Forms</h1>
+          <p class="lead">Let's work with some sexy, pre-styled forms, shall we?</p>
+          </div><!--page-header-->
+
+          <div class="row">
+              <div class="col-sm-6 highlight">
+                  <form>
+                      <div class="form-group">
+                          <label for="formName">Your name</label>
+                          <input type="text" id="formName" class="form-control">
+                      </div>
+                      <div class="form-group">
+                          <label for="formName">Email address</label>
+                          <input type="email" id="formEmail" class="form-control">
+                      </div>
+                      <div class="form-group">
+                          <label for="formName">Your message</label>
+                          <textarea class="form-control" rows="4"></textarea>
+                      </div>
+                      <div class="checkbox">
+                          <label>
+                              <input type="checkbox" name=""> Checkbox
+                          </label>
+                          
+                      </div>
+                      <div class="radio">
+                          <label>
+                              <input type="radio" name="formRadio"> Radio input #1
+                          </label><br>
+                          <label>
+                              <input type="radio" name="formRadio"> Radio input #2
+                          </label>
+                      </div>
+                      <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+              </div><!--col-sm-6-->
+              <div class="col-sm-6 highlight">
+                  <form class="form-inline">
+
+                    <div class="form-group">
+                        <label for="loginEmail" class="sr-only">Email</label>
+                         <div class="input-group">
+                           <div class="input-group-addon">@</div>
+                            <input id="loginEmail" type="email" class="form-control" placeholder="email">
+                         </div><!--input-group-->
+                    </div><!--form-group-->
+                    <div class="form-group">
+                        <label for="loginPassword" class="sr-only">Password</label>
+                        <div class="input-group">
+                         <div class="input-group-addon">*</div>
+                          <input id="loginPassword" type="password" class="form-control" placeholder="password">
+                        </div><!--input-group-->
+                    </div><!--form-group-->
+
+                    <button type="submit" class="btn btn-danger">Submit</button>
+  
+                  </form>
+              </div><!--col-sm-6-->
+          </div><!--row-->
+          <br><br><hr>
+          <div class="row">
+           <div class="col-sm-6">
+               <form class="form-horizontal">
+                   <div class="form-group">
+                       <label class="col-sm-3 control-label">First name</label>
+                       <div class="col-sm-9">
+                           <input type="text" class="form-control" disabled="">
+                       </div><!--col-sm-9-->
+                   </div><!--form-group-->
+                   <div class="form-group">
+                       <label class="col-sm-3 control-label">Last name</label>
+                       <div class="col-sm-9">
+                           <input type="text" class="form-control">
+                       </div><!--col-sm-9-->
+                   </div><!--form-group-->
+               </form>
+           </div><!--col-sm-6-->
+              
+          </div><!--row-->
+      </div><!--container-->
+    
+    <!--<a href="" class="btn btn-primary">This is a button</a>-->
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+
+  
+
+
+
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jQuery.js"></script>
+
+
+</body>
+</html>
