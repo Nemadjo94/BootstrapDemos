@@ -1,0 +1,16 @@
+body{
+	padding: 60px;
+}
+
+.highlight{
+	background-color: pink;
+	border: solid 1px #555;
+}
+
+tr > th:hover{
+	background-color: #FFF8dc;
+}
+
+#button{
+	border-radius: 100px;
+}
